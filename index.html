@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="jQueryRotate.js"></script>
+    <script src="animation.js"></script>
+    
+    <title>Kancolle Compass!</title>
+    
+    <style>
+        #compass, #arrow {
+            position: absolute;
+            left: 100px;
+            top: 100px;
+        }
+        
+        #girla {
+            position: absolute;
+            left: 450px;
+            top: 320px;
+        }
+        
+         #girlb {
+            position: absolute;
+            left: 450px;
+            top: 320px;
+        }
+        
+        #bar {
+            position: absolute;
+            top: 200px;
+            left: ;
+            background-color: red;
+            width: 20px;
+            height: 100px;
+        }
+        
+        #barhide {
+            position: absolute;
+            top: 200px;
+            background-color: white;
+            width: 20px;
+            height: 100px;
+        }
+        
+        button {
+            position: absolute;
+            top: 600px;
+            padding: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="cp"> 
+    <img id="compass" src="images/compassItself.png"> 
+    <img id="arrow" src="images/ARROW.png"> 
+    <img id="girla" src="images/Compass3a.png"> 
+    <img id="girlb" src="images/Compass3b.png"> 
+    </div>
+    
+    <div id="bar" class="BAR"></div>
+    <div id="barhide" class="BAR"></div>
+    
+    <button>reset</button>
+    <h1 id="angle">Now angle: 0</h1>
+    <h1 id="direction">Now direction: N</h1> </body>
+
+</html>
